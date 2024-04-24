@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>IPS</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IndustrialNetworks.Alarms-cleaned_Slayed\IndustrialNetworks.Alarms.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.AsrsLink-cleaned_Slayed\IndustrialNetworks.AsrsLink-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Common-cleaned_Slayed\IndustrialNetworks.Common-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Database-cleaned_Slayed\IndustrialNetworks.Database-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Delta-cleaned_Slayed\IndustrialNetworks.Delta-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.DriverComm-cleaned_Slayed\IndustrialNetworks.DriverComm-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.DriverManager-cleaned_Slayed\IndustrialNetworks.DriverManager-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Fatek-cleaned_Slayed\IndustrialNetworks.Fatek-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.HistoricalData-cleaned_Slayed\IndustrialNetworks.HistoricalData-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Keyence-cleaned_Slayed\IndustrialNetworks.Keyence-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.LS-cleaned_Slayed\IndustrialNetworks.LS-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Mitsubishi-cleaned_Slayed\IndustrialNetworks.Mitsubishi-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Modbus-cleaned_Slayed\IndustrialNetworks.Modbus-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Omron-cleaned_Slayed\IndustrialNetworks.Omron-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Panasonic-cleaned_Slayed\IndustrialNetworks.Panasonic-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Siemens-cleaned_Slayed\IndustrialNetworks.Siemens-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Vigor-cleaned_Slayed\IndustrialNetworks.Vigor-cleaned_Slayed.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.ServiceProcess.ServiceController">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\System.ServiceProcess.ServiceController.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Ports">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\System.IO.Ports.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

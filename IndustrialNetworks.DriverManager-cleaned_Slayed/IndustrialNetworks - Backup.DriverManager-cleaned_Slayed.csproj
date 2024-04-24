@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>NetStudio.DriverManager</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="NetStudio.DriverComm">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.DriverComm-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Common">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Common-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreWCF.Primitives">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\CoreWCF.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Siemens">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Siemens-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Keyence">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Keyence-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Mitsubishi">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Mitsubishi-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Omron">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Omron-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Panasonic">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Panasonic-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Modbus">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Modbus-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.LS">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.LS-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Delta">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Delta-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Vigor">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Vigor-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Fatek">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Fatek-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.HistoricalData">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.HistoricalData-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.AsrsLink">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.AsrsLink-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Alarms">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Alarms-cleaned_Slayed.dll</HintPath>
+    </Reference>
+    <Reference Include="NetStudio.Database">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\NetStudio.Database-cleaned_Slayed.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

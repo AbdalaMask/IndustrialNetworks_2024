@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>NetStudio.DriverManager</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\IndustrialNetworks.Alarms-cleaned_Slayed\IndustrialNetworks.Alarms.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.AsrsLink-cleaned_Slayed\IndustrialNetworks.AsrsLink-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Common-cleaned_Slayed\IndustrialNetworks.Common-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Database-cleaned_Slayed\IndustrialNetworks.Database-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Delta-cleaned_Slayed\IndustrialNetworks.Delta-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.DriverComm-cleaned_Slayed\IndustrialNetworks.DriverComm-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Fatek-cleaned_Slayed\IndustrialNetworks.Fatek-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.HistoricalData-cleaned_Slayed\IndustrialNetworks.HistoricalData-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Keyence-cleaned_Slayed\IndustrialNetworks.Keyence-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.LS-cleaned_Slayed\IndustrialNetworks.LS-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Mitsubishi-cleaned_Slayed\IndustrialNetworks.Mitsubishi-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Modbus-cleaned_Slayed\IndustrialNetworks.Modbus-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Omron-cleaned_Slayed\IndustrialNetworks.Omron-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Panasonic-cleaned_Slayed\IndustrialNetworks.Panasonic-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Siemens-cleaned_Slayed\IndustrialNetworks.Siemens-cleaned_Slayed.csproj" />
+    <ProjectReference Include="..\IndustrialNetworks.Vigor-cleaned_Slayed\IndustrialNetworks.Vigor-cleaned_Slayed.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CoreWCF.Primitives">
+      <HintPath>..\..\..\Downloads\Compressed\IPS-2023-UPD5.7\IPS-2023-UPD5.7\CoreWCF.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
